@@ -1,4 +1,4 @@
-# 🚀 21 Days 21 Projects: Exploratory Data Analysis Portfolio
+# 📊 Exploratory Data Analysis Portfolio
 
 > From predicting Titanic survivors to decoding Netflix's content strategy — two data stories, one data journey.
 
@@ -221,7 +221,7 @@ Both projects showcase **data wrangling**, **visualization**, **statistical reas
 
 <div align="center">
 
-*Part of my 21 Days 21 Projects challenge*  
+*Part of my 21 Days 21 Projects challenge*
 *Built with 💡 by Sibaram*
 
 </div>
