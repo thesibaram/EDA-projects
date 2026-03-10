@@ -180,10 +180,10 @@ The notebooks contain:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/EDA-Projects.git
+git clone https://github.com/thesibaram/eda-projects.git
 
 # Navigate to project
-cd EDA-Projects
+cd eda-projects
 
 # Launch Jupyter Notebook
 jupyter notebook
@@ -195,33 +195,42 @@ Then simply open and run:
 
 ---
 
-## 🧠 Key Skills Demonstrated
+## 🧠 What Makes These Projects Different
 
-| Skill | Application |
-|-------|-------------|
-| Data Cleaning | Missing value imputation, type conversion, text parsing |
-| Feature Engineering | Binary encoding, aggregation, text extraction, binning |
-| Visualization | Matplotlib, Seaborn, interactive plots |
-| Statistical Analysis | Correlation, distribution analysis, segmentation |
-| Storytelling | From raw data to actionable business insights |
-| Auto-Profiling | YData Profiling for comprehensive data overview |
+| What most beginners do | What I did instead |
+|---|---|
+| Drop missing values blindly | Converted 77% missing Cabin data into a survival signal via binary encoding |
+| Use mean for imputation | Used median for Age (skewed data), mode for Embarked (categorical) — with reasoning |
+| Treat genres as single values | Exploded multi-value genre column to get accurate frequency counts |
+| Ignore time columns | Engineered `age_on_netflix` to reverse-engineer Netflix's acquisition strategy |
+| Stop at bar charts | Used violin plots, KDE density plots, bigram word clouds, and YData auto-profiling |
 
 ---
 
 ## 📝 Conclusion
 
-These two projects demonstrate the complete EDA lifecycle:
+> *The best EDA doesn't just describe data — it changes how you see the problem.*
 
-- **Titanic**: Classic classification problem EDA — every feature tells a survival story
-- **Netflix**: Business intelligence EDA — data drives content strategy decisions
+**Titanic** taught me that the most powerful signals are often hiding inside missing values and indirect proxies — not the obvious columns.
 
-Both projects showcase **data wrangling**, **visualization**, **statistical reasoning**, and **insight extraction** — the core skills of any data professional.
+**Netflix** taught me that business strategy leaves fingerprints in data. A timestamp column revealed an entire content acquisition playbook.
+
+More EDA projects coming as the challenge progresses. Each one a different domain. Each one a different story.
 
 ---
 
 <div align="center">
 
-*Part of my 21 Days 21 Projects challenge*
-*Built with 💡 by Sibaram*
+### 🙋‍♂️ Let's Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sibaram-eng)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/thesibaram)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sibaram.work@gmail.com)
+
+---
+
+*Part of the [GFG 21 Days 21 Projects](https://www.geeksforgeeks.org/courses/twenty-projects-in-twenty-days) challenge*
+
+*Built by **Sibaram** — 2nd Year EE @ Parala Maharaja Engineering College*
 
 </div>
